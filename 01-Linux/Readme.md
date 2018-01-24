@@ -75,38 +75,9 @@ Programs can work together in the linux environment, we just have to properly 'l
    cat /etc/passwd | tr ':' '\t'
    ```
    
-## In the Cloud
-
-- [Red Hat OpenShift](https://www.openshift.com/pricing/plan-comparison.html) Commercial platform as a service from red hat, has a free plan.
-- [Amazon Web Services](https://aws.amazon.com) Commercial cloud service, includes instances with GPU to run CUDA applications.
-- [Google Cloud](cloud.google.com) Commercial cloud service
-- [Cloud académico uniandes](https://cloud.uniandes.edu.co/). 
-
-## On Windows
-
-- Connect to linux machines using ssh:
-   - [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
-   - [MobaXterm](http://mobaxterm.mobatek.net/) "Freemium" software (some fetures free to use, some only for paid users)
-- To transfer files using ssh
-   - [filezilla](https://filezilla-project.org/)
-   - [WinSCP](https://winscp.net/eng/docs/free_ssh_client_for_windows)
-   - [... more](http://www.thegeekstuff.com/2011/06/windows-sftp-scp-clients/)
--  Linux environment emulator, run shell scripts, connect to machines using X protocol, use linux tools
-   - [cygwin](https://www.cygwin.com/)
-   
-- Emulate the hardware of a computer, install (almost) any Operative system, run a linux virtual installation inside a Windows host
-   - [VirtualBox](https://www.virtualbox.org)
-   - [VMWare](http://www.vmware.com)
-
-## On Android
-   - [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh&hl=es)
-
-## On iOS
-   - [Termius](https://itunes.apple.com/co/app/termius/id549039908?mt=8)
-
 ## SSH - Server Connection
 
-1. The ssh command lets us connect to a remote machine identified by SERVER (either a name that can be resolved by the DNS, or an ip address), as the user VISION. The second command allows us to copy files between systems (you will get the actual login information in class).
+1. The ssh command lets us connect to a remote machine identified by SERVER (either a name that can be resolved by the DNS, or an ip address), as the user _*vision*_. The second command allows us to copy files between systems (you will get the actual login information in class).
 
    ```bash
    
@@ -123,8 +94,9 @@ Programs can work together in the linux environment, we just have to properly 'l
    scp -r USER@SERVER:/datos1/vision/sipi_images .
    ```
    
-   Notiec how the second commad will fail without the -r option
+   Notice how the second commad will fail without the -r option
 
+See [here](ssd.md) for different types of SSH connection with respect to your OS.
 
 ## File Ownership and permissions   
 
@@ -134,7 +106,6 @@ Programs can work together in the linux environment, we just have to properly 'l
    ```bash
    drwxr-x--- 2 vision vision 4096 ene 25 18:45 images
    ```
-   See http://linuxcommand.org/lts0070.php for more information.
    
    -  ``chmod`` change access permissions of a file (you must have write access)
    -  ``chown`` change the owner of a file
