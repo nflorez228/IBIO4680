@@ -195,7 +195,7 @@ See [here](ssh.md) for different types of SSH connection with respect to your OS
 12. Create a script for finding duplicate images based on their content (tip: hash or checksum)
     You may look in the internet for ideas, Do not forget to include the source of any code you use.
 
-13. Download the *bsds500* image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
+13. Download the [*bsds500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
  
 14. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
  
