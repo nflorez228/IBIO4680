@@ -170,45 +170,31 @@ See [here](ssh.md) for different types of SSH connection with respect to your OS
 
 ## Your turn
 
-1.  What is the ``grep``command?
+1. What is the ``grep``command?
 
-2.  What does the ``-prune`` option of ``find`` do? Give an example
-            
-3.  What does the ``cut`` command do?
+2. What is the meaning of ``#! /bin/bash`` at the start of scripts?
     
-4.  What does the ``rsync`` command do?
+3. How many users exist in the course server?
+    
+4. What command will produce a table of Users and Shells sorted by shell (tip: using ``cut`` and ``sort``)
    
-5.  What does the ``diff`` command do?
-    
-6.  What does the ``tail`` command do?
-    
-7.  What does the ``tail -f`` command do?
-    
-8.  What does the ``link`` command do?
-
-9. What is the meaning of ``#! /bin/bash`` at the start of scripts?
-    
-10.  How many users exist in the course server?
-    
-11. What command will produce a table of Users and Shells sorted by shell (tip: using ``cut`` and ``sort``)
-   
-12. Create a script for finding duplicate images based on their content (tip: hash or checksum)
+5. Create a script for finding duplicate images based on their content (tip: hash or checksum)
     You may look in the internet for ideas, Do not forget to include the source of any code you use.
 
-13. Download the [*bsds500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
+6. Download the [*bsds500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).
  
-14. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
+7. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
  
-15. What is their resolution, what is their format?
+8. What is their resolution, what is their format?
 
-16. How many of them are in *landscape* orientation (opposed to *portrait*)?
+9. How many of them are in *landscape* orientation (opposed to *portrait*)?
  
-17. Crop all images to make them square (256x256). Tip: do not forget about  [imagemagick](http://www.imagemagick.org/script/index.php).
+10. Crop all images to make them square (256x256). Tip: do not forget about  [imagemagick](http://www.imagemagick.org/script/index.php).
 
 
 # Report
 
-Questions 10 to 17 MUST be completed in a linux environment (you can use a live cd/virtual_machine/local installation/cloud_service/course_server, it is your choice, just make sure you report your platform). For every question write a detailed description of all the commands/scripts you used to complete them. DO NOT use a graphical interface to complete any of the tasks. Use screenshots to support your findings if you want to. 
+Questions 3 to 10 MUST be completed in a linux environment (you can use a live cd/virtual_machine/local installation/cloud_service/course_server, it is your choice, just make sure you report your platform). For every question write a detailed description of all the commands/scripts you used to complete them. DO NOT use a graphical interface to complete any of the tasks. Use screenshots to support your findings if you want to. 
 
 Feel free to search for help on the internet, but ALWAYS report any external source you used.
 
