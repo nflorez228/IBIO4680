@@ -77,7 +77,7 @@ Programs can work together in the linux environment, we just have to properly 'l
    
 ## SSH - Server Connection
 
-1. The ssh command lets us connect to a remote machine identified by SERVER (either a name that can be resolved by the DNS, or an ip address), as the user _*vision*_. The second command allows us to copy files between systems (you will get the actual login information in class).
+1. The ssh command lets us connect to a remote machine identified by SERVER (either a name that can be resolved by the DNS, or an ip address), as the user USER (**vision** in our case). The second command allows us to copy files between systems (you will get the actual login information in class).
 
    ```bash
    
