@@ -96,7 +96,7 @@ Programs can work together in the linux environment, we just have to properly 'l
    
    Notice how the second commad will fail without the -r option
 
-See [here](ssd.md) for different types of SSH connection with respect to your OS.
+See [here](ssh.md) for different types of SSH connection with respect to your OS.
 
 ## File Ownership and permissions   
 
