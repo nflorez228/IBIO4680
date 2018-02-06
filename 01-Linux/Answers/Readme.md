@@ -47,11 +47,15 @@ Cuestionario Lab 1 - Visión por computador
       
       ```
 	  
-6) ``wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz``
+6)
+``wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz``
+
 ``tar -xvf BSR_bsds500.tgz``
 
-7) ``du -sh BSR``
+7) 
+``du -sh BSR``
 ``73M		BSR``
+
 ``find Lab1/BSR/BSDS500/data/images/. | wc -l``
 ``507``
 8)
@@ -62,7 +66,7 @@ Cuestionario Lab 1 - Visión por computador
 		cd BSR/BSDS500/data # or just cd
 
 
-		# find all files whose name end in .tif
+		# find all files
 		images=$(find images -name *.*)
 		for im1 in ${images[*]}
 		do
@@ -86,7 +90,7 @@ Cuestionario Lab 1 - Visión por computador
 		# create output directory
 		mkdir cropped_images
 
-		# find all files whose name end in .tif
+		# find all files
 		images=$(find images -name *.*)
 		for im1 in ${images[*]}
 		do
