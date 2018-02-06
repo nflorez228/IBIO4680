@@ -47,13 +47,13 @@ Cuestionario Lab 1 - Visión por computador
       
       ```
 	  
-6) wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz
-tar -xvf BSR_bsds500.tgz
+6) ``wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz``
+``tar -xvf BSR_bsds500.tgz``
 
-7) du -sh BSR
-73M		BSR
-find Lab1/BSR/BSDS500/data/images/. | wc -l
-507
+7) ``du -sh BSR``
+``73M		BSR``
+``find Lab1/BSR/BSDS500/data/images/. | wc -l``
+``507``
 8)
 	```bash
 		#!/bin/bash
