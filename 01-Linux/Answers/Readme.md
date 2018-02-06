@@ -55,7 +55,6 @@ tar -xvf BSR_bsds500.tgz
 find Lab1/BSR/BSDS500/data/images/. | wc -l
 507
 8)
-
 	```bash
 		#!/bin/bash
 
@@ -75,7 +74,6 @@ find Lab1/BSR/BSDS500/data/images/. | wc -l
 
 9)
 10)
-
 	```bash
 		#!/bin/bash
 
