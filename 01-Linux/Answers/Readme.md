@@ -58,6 +58,7 @@ Cuestionario Lab 1 - Visión por computador
 
 ``find Lab1/BSR/BSDS500/data/images/. | wc -l``
 ``507``
+
 8)
 	```bash
 		#!/bin/bash
