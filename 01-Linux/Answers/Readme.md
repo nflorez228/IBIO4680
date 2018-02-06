@@ -56,7 +56,7 @@ find Lab1/BSR/BSDS500/data/images/. | wc -l
 507
 8)
 
-		```bash
+	```bash
 		#!/bin/bash
 
 		# go to Home directory
@@ -71,12 +71,12 @@ find Lab1/BSR/BSDS500/data/images/. | wc -l
 		  identify $im1
 		done
       
-      ```
+    ```
 
 9)
 10)
 
-		```bash
+	```bash
 		#!/bin/bash
 
 		# go to Home directory
@@ -96,4 +96,4 @@ find Lab1/BSR/BSDS500/data/images/. | wc -l
 		  convert -crop 256x256+0+0 $im1 $im1
 		done
       
-      ```
+    ```
