@@ -8,7 +8,9 @@ Cuestionario Lab 1 - Visión por computador
 
    En total son 12 usuarios. 
    
-4) 
+4) El comando para tener una tabla de usuarios es: 
+
+  ``getent passwd | grep home | cut -d ":" -f 1``
 
 5) 
 	```bash
