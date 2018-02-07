@@ -47,19 +47,22 @@ Cuestionario Lab 1 - Visión por computador
       
       ```
 	  
-6)
+6 Para descargar el archivo usamos el comando ``wget`` seguido del link de descarga.
 ``wget http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz``
-
+Una vez descargado se descomprime el archivo con el comando ```tar`` asi:
 ``tar -xvf BSR_bsds500.tgz``
 
-7) 
+7) El comando ``du -sh`` nos permite ver el tamaño de una carpeta con todos sus archivos recursivos
 ``du -sh BSR``
+El comando nos resulta:
 ``73M		BSR``
+Lo cual significa que la carpeta BSR pesa 73M
 
+Para saber cuantos elementos hay en una carpeta se utiliza el comando ``find`` en conjunto con el comando de conteo ``wc -l`` asi:
 ``find Lab1/BSR/BSDS500/data/images/. | wc -l``
-``507``
+la respuesta son: ``507`` archivos
 
-8)
+8) Se creo un programa que recorre las imagenes bajo ``BSR/BSDS500/data`` y a este usa el comando ``identify`` para saber su resolucion y su formato.
 	```bash
 		#!/bin/bash
 
@@ -77,7 +80,8 @@ Cuestionario Lab 1 - Visión por computador
       
     ```
 
-9)
+9) Para saber la orientacion de cada imagen bajo la carpeta ``BSR/BSDS500/data`` se recorren las imagenes y se cuentan cauntas cumplen el criterio de proporcion de ancho/alto.
+Esto se logra obteniendo las proporciones con el comando ``convert $im1 -format "%[fx:(w/h>1)?1:0]" info:`` y luego se pregunta si es 1 o 0, Landscape o Portrait.
 	```bash
 		#!/bin/bash
 
@@ -100,7 +104,9 @@ Cuestionario Lab 1 - Visión por computador
 		echo "hay" $count "Landscape"
       
     ```
-10)
+	La respuesta del programa son 348 imagenes.
+	
+10) Para cortar las imagenes se itera sobre la carpeta ``BSR/BSDS500/data`` y a cada imagen se utiliza el comando ``convert`` con el subcomando ``-crop`` especificando las dimensiones deseadas (256x256)
 	```bash
 		#!/bin/bash
 
