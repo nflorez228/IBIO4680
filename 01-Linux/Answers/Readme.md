@@ -78,6 +78,28 @@ Cuestionario Lab 1 - Visión por computador
     ```
 
 9)
+	```bash
+		#!/bin/bash
+
+		# go to Home directory
+		cd BSR/BSDS500/data # or just cd
+
+
+		# find all files
+		images=$(find images -name *.*)
+		count=0
+		for im1 in ${images[*]}
+		do
+		#iterate over them
+		value=$(convert $im1 -format "%[fx:(w/h>1)?1:0]" info:)
+		if [ $value -eq 1 ]
+		then
+		((count++))
+		fi
+		done
+		echo "hay" $count "Landscape"
+      
+    ```
 10)
 	```bash
 		#!/bin/bash
