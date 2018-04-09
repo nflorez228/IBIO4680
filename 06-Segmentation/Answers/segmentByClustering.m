@@ -8,7 +8,8 @@ if numberOfClusters < 2
     error('Bad number of clusters')
 end
 
-he = imread(rgbImage);
+%he = imread(rgbImage);
+he=rgbImage;
 imshow(he);
 he=im2double(he);
 validForWatersheds=1;
