@@ -1,3 +1,5 @@
+ANSWERS ARE LOCATED IN THE SCRIPTS FOLDER PLEASE READ THE README.MD WITHIN IT.
+
 # Optical Flow in OpenCV
 
 In this lab we will have some fun with the Optical Flow, unlike most Labs, there are two optional tasks to be completed, you might choose **only one of them**.

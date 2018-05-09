@@ -57,7 +57,7 @@ Finally we calculate if the movement in the X axis calculated from the first ste
 
 
 ## Results
-![](https://media3.giphy.com/media/d2lcHJTG5Tscg/200.gif)
+![](videotogif.gif)
 
 ## Instructions
 run lk_track.y in the scripts folder:
@@ -67,6 +67,5 @@ python lk_track.py
  
 ## References
 [1] https://la.mathworks.com/discovery/optical-flow.html
-[2] http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html 
 
-![](https://media3.giphy.com/media/d2lcHJTG5Tscg/200.gif)
+[2] http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html 
